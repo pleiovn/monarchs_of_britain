@@ -2,26 +2,35 @@ div {
 	padding: 0 100px;
 }
 
-header {
-	text-align: center;
-	font-family: 'Cinzel Decorative', cursive;
+h1 {
+  font-family: 'Uncial Antiqua', cursive;
+  font-size: 5em;
+  text-align: center;
+  margin: auto 0;
+}
+
+h2 {
+  font-family: 'Cormorant Garamond', serif;
+  text-align: center;
 }
 
 footer {
-	text-align: center;
 	font-family: 'Cormorant Garamond', serif;
+  text-align: center;
+  margin: 0 0 50px 0;
 }
 
 .node circle {
-  fill: #999;
+  fill: #740001;
 }
 
 .node text {
-  font: 10px sans-serif;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1em;
 }
 
 .node--internal circle {
-  fill: #555;
+  fill: #740001;
 }
 
 .node--internal text {
@@ -30,7 +39,7 @@ footer {
 
 .link {
   fill: none;
-  stroke: #555;
+  stroke: #740001;
   stroke-opacity: 0.4;
   stroke-width: 1.5px;
 }
